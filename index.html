@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php $IP = $_SERVER['SERVER_ADDR'];?>
+<?php $URL = $_SERVER['HTTP_HOST'];?>
+<meta name="referrer" content="never">
 <html>
 
 	<head>
@@ -8,18 +10,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<title>导航测试</title>
+		<title>服务器</title>
 	</head>
 	<body>
 		<div id="wrap">
-			<div id="top">
 				<div id="logo">
 					<img class="logo" src="img/logo.png">
-					<!-- <h1>导航测试</h1> -->
+					<!-- <h1>服务器</h1> -->
 					<div id="kg-btn" class="">
 						<input class='tgl tgl-flip' id='qieh' type='checkbox' />
-						<label class='tgl-btn' data-tg-off='外网' data-tg-on='内网' for='qieh'></label>
-					</div>
+						<label class='tgl-btn' data-tg-off='远征' data-tg-on='守城' for='qieh'></label>
 				</div>
 			</div>
 			<div id="main">
@@ -27,100 +27,125 @@
 				<div id="app" class="app animated fadeInLeft">
 					<ul>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/AppStore.png" /><strong>我的博客</strong></a>
+							<a href="/ariang/" target="_blank"><img class="shake" src="img/png/AriaNg.png" /><strong>AriaNG下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>我的云盘</strong></a>
+							<a href="http://<?php echo $IP;?>:9091" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>Transmission下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a>
+						                 <a href="http://<?php echo $IP;?>:8088" target="_blank"><img class="shake" src="img/png/qbittorrent.png" /><strong>qbittorrent下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>相册</strong></a>
+							<a href="/filerun/" target="_blank"><img class="shake" src="img/png/FileRun.png" /><strong>filerun网盘</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>视频</strong></a>
+							<a href="/piwigo/" target="_blank"><img class="shake" src="img/png/piwigo.png" /><strong>piwigo相册</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>迅雷远程</strong></a>
+						     <a href="http://<?php echo $IP;?>:8096" target="_blank"><img class="shake" src="img/png/jellyfin.png" /><strong>jellyfin视频</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>下载</strong></a>
-						</li>
-
-						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>设置</strong></a>
+							<a href="http://192.168.10.11:8089" target="_blank"><img class="shake" src="img/png/everything.png" /><strong>everything文件搜索</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>BT</strong></a>
+							<a href="/wordpress/" target="_blank"><img class="shake" src="img/png/wordpress.png" /><strong>wordpress微博</strong></a>
 						</li> 
-						
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>管理文件</strong></a>
-						</li>
-						  <li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>管理路由器</strong></a>
+						                 <a href="/h5ai/" target="_blank"><img class="shake" src="img/png/h5ai.png" /><strong>文件展示</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/FaceTime.png" /><strong>监控系统</strong></a>
+							<a href="/kodbox/" target="_blank"><img class="shake" src="img/png/kod.png" /><strong>kod可道云</strong></a>
 						</li> 
+						<li>
+							<a href="http://<?php echo $IP;?>:4533" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>Music音乐</strong></a>
+						</li>
+						<li>
+							<a href="http://<?php echo $IP;?>:8080" target="_blank"><img class="shake" src="img/png/aida64.png" /><strong>aida64状态查看</strong></a>
+						</li>
+						<li>
+							<a href="https://www.baidu.com/" target="_blank"><img class="shake" src="img/png/baidu.png" /><strong>百度搜索</strong></a>
+						</li>
+						<li>
+							<a href="https://cn.bing.com/" target="_blank"><img class="shake" src="img/png/bing.png" /><strong>必应搜索</strong></a>
+						</li> 
+						<li>
+							<a href="https://pc.qq.com/" target="_blank"><img class="shake" src="img/png/soft.png" /><strong>软件下载</strong></a>
+						</li> 
+						<li>
+							<a href="https://github.com/" target="_blank"><img class="shake" src="img/png/github.png" /><strong>github</strong></a>
+						</li> 
+						<li>
+                                                                                                              <a href="https://console.sunlogin.oray.com/remote" target="_blank"><img class="shake" src="img/png/mstsc.png" /><strong>远程设置</strong></a>
+                                                                                                </li> 
+						<li>
+                                                                                                                <a href="/wordpress/wp-login" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>微博后台</strong></a>
+                                                                                                </li> 
+						<li>
 					</ul>
 				</div>
 				<!-- 内网网访问地址 -->
 				<div id="app1" class="app animated fadeInRight">
 					<ul>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/AppStore.png" /><strong>我的博客</strong></a>
+							<a href="/ariang/" target="_blank"><img class="shake" src="img/png/AriaNg.png" /><strong>AriaNG下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>爱快云</strong></a>
+							<a href="http://<?php echo $IP;?>:9091" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>Transmission下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a>
+						                 <a href="http://<?php echo $IP;?>:8088" target="_blank"><img class="shake" src="img/png/qbittorrent.png" /><strong>qbittorrent下载</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>相册</strong></a>
+							<a href="/filerun/" target="_blank"><img class="shake" src="img/png/FileRun.png" /><strong>filerun网盘</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>视频</strong></a>
+							<a href="/piwigo/" target="_blank"><img class="shake" src="img/png/piwigo.png" /><strong>piwigo相册</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>迅雷远程</strong></a>
+						     <a href="http://<?php echo $IP;?>:8096" target="_blank"><img class="shake" src="img/png/jellyfin.png" /><strong>jellyfin视频</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>下载管理</strong></a>
+							<a href="http://192.168.10.11:8089" target="_blank"><img class="shake" src="img/png/everything.png" /><strong>everything文件搜索</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>BT</strong></a>
+							<a href="/wordpress/" target="_blank"><img class="shake" src="img/png/wordpress.png" /><strong>wordpress微博</strong></a>
+						</li> 
+						<li>
+						                 <a href="/h5ai/" target="_blank"><img class="shake" src="img/png/h5ai.png" /><strong>文件展示</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>设置</strong></a>
+							<a href="/kodbox/" target="_blank"><img class="shake" src="img/png/kod.png" /><strong>kod可道云</strong></a>
+						</li> 
+						<li>
+							<a href="http://<?php echo $IP;?>:4533" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>Music音乐</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>管理文件</strong></a>
+							<a href="http://<?php echo $IP;?>:8080" target="_blank"><img class="shake" src="img/png/aida64.png" /><strong>aida64状态查看</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>管理路由器</strong></a>
+							<a href="/phpmyadmin4.9.7/" target="_blank"><img class="shake" src="img/png/phpmyadmin.png" /><strong>数据库4.9.7</strong></a>
 						</li>
 						<li>
-							<a href="#" target="_blank"><img class="shake" src="img/png/FaceTime.png" /><strong>监控系统</strong></a>
-						</li>
+							<a href="/phpmyadmin/" target="_blank"><img class="shake" src="img/png/phpmyadmin2.png" /><strong>数据库5.1.1</strong></a>
+						</li> 
+						<li>
+							<a href="/phpsysinfo/" target="_blank"><img class="shake" src="img/png/info.png" /><strong>负载状态</strong></a>
+						</li> 
+						<li>
+							<a href="/add_vhost/" target="_blank"><img class="shake" src="img/png/addweb.png" /><strong>添加虚拟主机</strong></a>
+						</li> 
+						<li>
+                                                                                                                <a href="/adminer/" target="_blank"><img class="shake" src="img/png/adminer.png" /><strong>adminer4.8.1</strong></a>
+                                                                                                </li> 
+						<li>
+                                                                                                                 <a href="/wordpress/wp-login" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>微博后台</strong></a>
+                                                                                                </li> 
+						<li>
 					</ul>
 				</div>
 				<div style="clear: both;"></div>
 			</div>
 		</div>
-		<div id="footer">
-			<div class="footer-contents">
-				<div class="links">
-					<div class="line">
-						<li>
-						<a href="http://www.wdmomo.fun:81/" target="_blank">Pi掌机DIY</a>&nbsp;&nbsp;&nbsp;<span class="footer-link-separator"></span>&nbsp;&nbsp;&nbsp;<span class="copyright">╰(*°▽°*)╯</span>
-						</div>
-				</div>
-			</div>
-		</div>
 		<script src="js/jquery.min.js"></script>
 	</body>
-
 </html>
